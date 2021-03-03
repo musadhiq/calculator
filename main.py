@@ -10,8 +10,8 @@ Select The Operation
 Enter Your Option : """)
 
 if oper == "1":
-    num1 = int(input("Enter The First Number"))
-    num2 = int(input("Enter The Second Number"))
+    num1 = int(input("Enter The First Number :"))
+    num2 = int(input("Enter The Second Number :"))
     sum = num1 + num2
     print("+--------------+")
     print("  sum = "+str(sum))
@@ -20,8 +20,8 @@ if oper == "1":
         """)
 
 elif oper == "2":
-    num1 = int(input("Enter The First Number"))
-    num2 = int(input("Enter The Second Number"))
+    num1 = int(input("Enter The First Number :"))
+    num2 = int(input("Enter The Second Number :"))
     sum = num1 - num2
     print("+-------------+")
     print("  sum = "+str(sum))
@@ -30,8 +30,8 @@ elif oper == "2":
     """)
 
 elif oper == "3":
-    num1 = int(input("Enter The First Number"))
-    num2 = int(input("Enter The Second Number"))
+    num1 = int(input("Enter The First Number :"))
+    num2 = int(input("Enter The Second Number :"))
     sum = num1 * num2
     print("+-------------+")
     print("sum = "+str(sum))
@@ -40,8 +40,8 @@ elif oper == "3":
         """)
 
 elif oper == "4":
-    num1 = int(input("Enter The First Number"))
-    num2 = int(input("Enter The Second Number"))
+    num1 = int(input("Enter The First Number :"))
+    num2 = int(input("Enter The Second Number :"))
     sum = num1 / num2
     print("+-------------+")
     print("  sum = "+str(sum))
